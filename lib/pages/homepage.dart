@@ -14,7 +14,13 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    FlutterNativeSplash.remove();
+    hideScreen();
+  }
+
+  Future<void> hideScreen() async {
+    Future.delayed(const Duration(milliseconds: 1800), () {
+      FlutterNativeSplash.remove();
+    });
   }
 
   @override

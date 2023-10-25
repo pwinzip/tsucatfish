@@ -41,7 +41,7 @@ class _ResultPageState extends State<ResultPage> {
             resultCard(
                 widget.finalWeight, "กิโลกรัมต่อบ่อ", const Color(0xFF028DA6)),
             resultTitle(
-                title: "น้ำหนักเฉลี่ยต่อตัวของปลา",
+                title: "น้ำหนักอาหารที่ควรให้ปลาทั้งบ่อกินต่อมื้อ",
                 titleColor: const Color(0xFF026DA6)),
             resultCard(widget.suitableFeed, "กิโลกรัมต่อมื้อ",
                 const Color(0xFF026DA6)),
